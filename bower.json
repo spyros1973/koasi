@@ -1,0 +1,21 @@
+{
+  "name": "koasi",
+  "description": "",
+  "main": "",
+  "keywords": [
+    "koa",
+    "statistics"
+  ],
+  "authors": [
+    "Spyros Paraschis"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.ko-gathering.com/koasi",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

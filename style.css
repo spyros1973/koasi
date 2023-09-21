@@ -1,0 +1,286 @@
+body { /* de stijlen voor het hele document */
+	margin: 0;
+	padding: 1em;
+	font: 12px verdana, arial, helvetica, sans-serif;
+}
+
+a { /* de stijlen voor de links */
+	color: #3c7796;
+}
+
+a:hover { /* de stijlen voor de links waar de cursor boven zweeft */
+	color: #9ecf39;
+}
+
+a:visited { /* de stijlen voor de bezochte links */
+	color: #3c7796;
+}
+
+#container { /* de stijlen voor het omvattende deel van de navigatie, inhoud en voet */
+	width: 855px;
+	height: 100%;
+	margin: auto;
+	padding: 0.5em;
+	border: 1px solid #3c7796;
+	text-align: left;
+}
+
+#header { /* de stijlen van de header, het logo */
+	height: 75px;
+	margin: 0 0 0.5em 0;
+	border: 1px solid #3c7796;
+	background: #3c7796;
+}
+
+#nav { /* de stijlen van de navigatie */
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#normal {
+  padding: 4px;
+  margin: 2px;
+  text-indent: 2px;
+  font-variant: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: normal;  
+  line-height: 1.4;
+  font-size: 12px;
+  display: block;
+}
+
+
+
+#nav a { /* de stijlen voor de links in de navigatie */
+	padding: 0.5em 0 0.5em 0;
+	margin: 0 0 1px 0;
+	width: 150px;
+	display: block;
+	text-indent: 1em;
+	border: 1px solid #3c7796;
+	font-variant: small-caps;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	background: #3c7796;
+	color: #ffffff;
+}
+
+#nav a:hover { /* de stijlen voor de links in de navigatie waar de cursor boven zweeft */
+color: #9ecf39;
+}
+
+#content { /* de stijlen voor de inhoud, de tekst */
+	float: left;
+	clear: right;
+	margin: 0 0 0 0.5em;
+	padding: 0 0.5em 0 0.5em;
+	width: 500px;
+}
+
+#content h2 { /* de stijlen voor de kopjes in de inhoud */
+	border: 1px solid #3c7796;
+	text-indent: 0.5em;
+	font-size: 12px;
+	font-variant: small-caps;
+	color: #ffffff;
+	margin: 0;
+	padding: 0.5em;
+	background: #3c7796;
+}
+
+#content h3 { /* de stijlen voor de kopjes in de inhoud */
+	border: 1px solid #3c7796;
+	text-indent: 0.5em;
+	font-size: 11px;
+	/*font-variant: small-caps;*/
+	color: #ffffff;
+	margin: 0;
+	padding: 0.5em;
+	background: #2b6688;
+}
+
+
+#content h3 a {
+  font-size: 10px;
+  color: #aaaaaa;
+}
+
+#content h3 a:visited {
+  font-size: 10px;
+  color: #aaaaaa;
+}
+
+#content h3 a:hover {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+
+#content h2 img {
+  float: right;
+  position: relative;
+  top: -8px;
+}
+
+#navfoot {
+  text-align: right;
+  color: #ff3333;
+  font-size: 9px;
+}
+#content ul {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+#content li {
+line-height: 1.6;
+}
+#content p { /* de stijlen voor de alinea's in de inhoud */
+	margin: 0.5em;
+	padding: 0;
+	line-height: 1.6;
+}
+
+#content table {
+  width: 100%;
+  font-size: 11px;
+  border-width: 0px;
+  border-style: solid;
+  line-height: 1.2;
+}
+
+
+
+#content table th {
+  	text-align: left;
+    background: #1a5574;
+  	color: #ffffff;
+}
+
+#content table tr.d0 td {
+  border-width: 0px 0px 1px 0px;
+  border-style: none;
+  color: #777777;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#content table tr.d1 td {
+  border-width: 0px 0px 1px 0px;
+  border-style: none;
+  color: #777777;
+  background: #ddddff;
+  margin: 0;
+  padding: 0;
+}
+
+#content table td {
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  color: #777777;
+  background: #ffffff;
+}
+
+
+#news { /* de stijlen voor de kolom links, het nieuws */
+	width: 175px;
+	border: 1px solid #3c7796;
+	float: left;
+	padding: 0;
+	margin: 0 0 0 0.5em;
+	margin-bottom: 1em;
+}
+
+#news h2 { /* de stijlen voor de kopjes in de kolom nieuws */
+	border: 1px solid #3c7796;
+	text-indent: 0.5em;
+	font-size: 12px;
+	font-variant: small-caps;
+	color: #ffffff;
+	margin: 0;
+	padding: 0.5em;
+	background: #3c7796;
+}
+
+#news h2 a { /* de stijlen voor de links in de navigatie */
+	font-variant: small-caps;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	background: #3c7796;
+	color: #ffffff;
+}
+
+#news h2 a:hover { /* de stijlen voor de links in de navigatie waar de cursor boven zweeft */
+color: #9ecf39;
+}
+
+#news h2 a:visited { /* de stijlen voor de links in de navigatie waar de cursor boven zweeft */
+color: #9ecf39;
+}
+
+#news p { /* de stijlen voor de alinea's in de kolom nieuws */
+	margin: 1em;
+	line-height:1.6;
+}
+
+#news table {
+  width: 100%;
+  font-size: 10px;
+  border-width: 0px;
+  border-style: solid;
+  line-height: 1.2;
+}
+
+
+#news table th {
+  	text-align: left;
+    background: #1a5574;
+  	color: #ffffff;
+}
+
+
+#news table tr.d0 td {
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  color: #777777;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#news table tr.d1 td {
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  color: #777777;
+  background: #ddddff;
+  margin: 0;
+  padding: 0;
+}
+
+#news table td {
+  border-width: 0px 0px 1px 0px;
+  border-style: dotted;
+  color: #777777;
+  background: #ffffff;
+}
+
+
+
+#footer { /* de stijlen voor de voet, de copyright */
+	clear: both;
+	text-align: center;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #3c7796;
+	background: #3c7796;
+	color: #ffffff;
+}
+
+#footer p { /* de stijlen voor de alinea's in de voet */
+	margin: 0;
+	padding: 0;
+}

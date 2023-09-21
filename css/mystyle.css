@@ -1,0 +1,106 @@
+html,body{
+    height: 100%
+}
+
+select {
+	margin-bottom:14px;
+}
+
+#dimOverlay 
+{
+	opacity: 0.5;
+	height:100%;
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:400;
+	background-color:green;
+}
+
+#dimOverlay img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	transform: scale(2);
+	-moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);	
+}
+
+h4 {
+	margin-top:24px;
+}
+.bg-green
+{
+  background-color: green ;
+}
+
+.bg-grey
+{
+  background-color: #aaaaaa ;
+}
+
+.modal-content {
+    overflow:hidden;
+}
+
+a.ko2menu:link {
+text-decoration:none;
+}
+
+a.ko2menu div {
+	background-color: #000060;
+	height:60px;
+	vertical-align: middle;	
+	border:1px solid #1e77df;
+}
+
+a.ko2menu p {
+	font-family: 'Press Start 2P', cursive;
+	color:white;
+	padding-top:4px;
+	text-shadow: 2px 2px grey;
+}
+
+a.ko2menu:hover div {
+	background-color: #e5ee01;
+}
+
+a.ko2menu:hover p {
+	color:#ec4406;
+}
+
+div.jumbotron {
+  height:120px;
+  background-image: url(./../images/pixelheader.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:green;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em; 
+}
+
+.footer
+{
+position: relative;
+margin-top: -150px; /* negative value of footer height */
+height: 150px;
+clear:both;
+padding-top:20px;
+color:#fff;
+}
+
+.footer a {
+	color: #fff;
+	
+}
+
+.container {
+	min-height:100%;
+}
